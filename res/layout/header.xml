@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="#80C6FF">
+    <!--    <ImageView
+            android:layout_marginTop="80dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/image"
+            /> -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sadhvi"
+        android:textSize="20dp"
+        android:paddingLeft="10dp"
+        android:layout_centerInParent="true"
+        android:textStyle="italic"
+        android:textColor="#0a0000"
+        android:shadowColor="#80C6FF"
+        android:shadowRadius="3"
+        android:shadowDy="-3"
+        android:id="@+id/txt"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/txt"
+        android:layout_centerVertical="true"
+        android:src="@drawable/person"
+        android:id="@+id/person"/>
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginStart="6dp"
+        android:layout_below="@id/txt"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:paddingTop="10dp"
+        android:text="1234567890"
+        android:textSize="15dp"
+        android:shadowColor="#80C6FF"
+        android:shadowRadius="3"
+        android:shadowDy="-3"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textColor="#0a0000" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/txtName"
+        android:layout_below="@id/person"
+        android:layout_centerVertical="true"
+
+        android:src="@drawable/phone"/>
+
+
+</RelativeLayout>
+
+
+
